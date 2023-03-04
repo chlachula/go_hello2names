@@ -21,6 +21,15 @@
 #18 touch a/a_test.go #implement func NameA
 #20 go test ./...
 #21 git add STEPS.txt a/a.go a/a_test.go
+#22 git commit -m "package a"
+#22 git push origin
+
+#16 mkdir b           #package a
+#17 touch b/b.go      #implement func NameB
+#18 touch b/b_test.go #implement func NameB
+#20 go test ./...
+#21 git add STEPS.txt b/b.go b/b_test.go
+#22 git commit -m "package b"
 #22 git push origin
 
 
