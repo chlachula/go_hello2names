@@ -32,5 +32,14 @@
 #22 git commit -m "package b"
 #22 git push origin
 
+#23 mkdir usage
+#24 touch usage/main.go      #edit to utilize Message, NameA and NameB
+#25 touch usage/main_test.go #implement test
+#26 go mod edit -replace github.com/chlachula/go_hello2names=../.
+#27 go test ./...
+
+
+
+
 
 
