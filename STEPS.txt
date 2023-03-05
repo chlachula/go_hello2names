@@ -36,10 +36,21 @@
 #24 touch usage/main.go      #edit to utilize Message, NameA and NameB
 #25 touch usage/main_test.go #implement test
 #26 go mod edit -replace github.com/chlachula/go_hello2names=../.
-#27 go test ./...
+#27 go clean -testcache
+#28 go test ./...
+#29 git add README.md STEPS.txt go.mod  usage/main.go usage/main_test.go
+#30 git commit -m "usage"
+#31 git push origin
 
+#32 at go.mod delete line replace github.com/chlachula/go_hello2names => ../.
+#33 cd usage
+#34 go run main.go      #output: Hello Ann & Bob. Good to see you.
+#35 go build -o hello2names.exe main.go 
+#36 ./hello2names.exe   #output: Hello Ann & Bob. Good to see you.
+#37 cd ..
 
-
-
-
-
+#38 git add README.md STEPS.txt go.mod
+#39 git commit -m "STEPS.txt update, go.mod reverse back"
+#40 git push origin
+#41 git tag v0.1.1
+#15 git push origin v0.1.1
