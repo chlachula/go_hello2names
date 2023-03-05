@@ -50,7 +50,7 @@
 #37 cd ..
 
 #38 git add README.md STEPS.txt go.mod
-#39 git commit -m "STEPS.txt update, go.mod reverse back"
+#39 git commit -m "STEPS.txt, README.md update, go.mod reverse back"
 #40 git push origin
 #41 git tag v0.1.1
-#15 git push origin v0.1.1
+#42 git push origin v0.1.1
